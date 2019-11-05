@@ -1,0 +1,39 @@
+@import './books.css';
+@import './header.css';
+@import './user-msg.css';
+
+
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+input {
+    padding: 5px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.container {
+    max-width: 980px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* --HELPERS-- */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.clean-list {
+    list-style: none;
+}

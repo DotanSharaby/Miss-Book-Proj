@@ -1,0 +1,130 @@
+.app-books-main {
+    color: indianred;
+    font-family: cursive;
+}
+
+.book-detail-container {
+    background-color: rgb(140, 237, 240);
+    font-size: 1.1em;
+    font-family: cursive;
+}
+
+.book-detail-header {
+    padding: 20px;
+}
+
+.book-list {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.book-card {
+    min-width: 120px;
+    background-color: lightslategray;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    color: ivory;
+}
+
+.book-card img {
+    height: 120px;
+}
+
+.book-detail-body {
+    max-width: 50%;
+    margin: 0 auto;
+}
+.book-detail-body img {
+    height: 120px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+
+/* ---review--- */
+
+.review-add-container {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(140, 237, 240);
+    font-size: 1.1em;
+    font-family: cursive;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+.rating>span:hover:before,
+.rating>span:hover~span:before {
+    content: "\2605";
+    position: absolute;
+    color: gold;
+    cursor: pointer;
+}
+
+
+/* ----filter---- */
+
+.book-filter-container {
+    font-size: 1.5rem;
+    font-family: cursive;
+    padding: 20px;
+}
+
+.number-input {
+    width: 3rem;
+    margin-right: 5px;
+}
+
+.square_btn {
+    
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 5px;
+    color: #67c5ff;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.square_btn:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    top: 100%;
+    left: 0;
+    border-radius: 3px;
+    background: #67c5ff;
+    transition: .2s;
+}
+
+.square_btn:hover:before {
+    top: -webkit-calc(100% - 3px);
+    top: calc(100% - 3px);
+}

@@ -1,0 +1,9 @@
+header {
+    color: indianred;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+
+.header-nav {
+    padding: 10px;
+}
